@@ -111,7 +111,7 @@ async def set_notify_telegram(callback: CallbackQuery, user: UserInDB):
 async def edit_language(callback: CallbackQuery, user: UserInDB):
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
         [
-            InlineKeyboardButton(text="🇺🇸 English", callback_data="set_lang:eng"),
+            InlineKeyboardButton(text="🇺🇸 English", callback_data="set_lang:en"),
             InlineKeyboardButton(text="Русский", callback_data="set_lang:ru")
         ]
     ])

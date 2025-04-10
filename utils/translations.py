@@ -64,7 +64,7 @@ class I18n:
         },
         "add_customer_phone": {
             "ru": "📞 Введите номер телефона (или отправьте «-», если не нужен):",
-            "en": "📞 Enter your phone number (or send «-» if not needed):"
+            "en": "📞 Enter phone number (or send «-» if not needed):"
         },
         "edit_customer_phone": {
             "ru": "📞 Введите новый телефон или «-»:",

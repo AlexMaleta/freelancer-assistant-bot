@@ -138,10 +138,12 @@ async def back_to_order_list(callback: CallbackQuery, state: FSMContext, user: U
 
 @router.callback_query(F.data == "add_order")
 async def start_add_order(callback: CallbackQuery, state: FSMContext, user: UserInDB):
+    from bot.routers.customers import render_customers
     customers = customer_service.get_customers_by_user(user.id)
 
     if not customers:
         await callback.answer(I18n.t(user.language, "order_no_customers"))
+        await render_customers(callback, user)
         return
 
     # customer selection buttons
