@@ -326,47 +326,47 @@ class I18n:
         },
         "language": {
             "ru": "🌐 Язык интерфейса",
-            "eng": "🌐 Interface language"
+            "en": "🌐 Interface language"
         },
         "notify_email": {
             "ru": "📧 Уведомления по email",
-            "eng": "📧 Email notifications"
+            "en": "📧 Email notifications"
         },
         "notify_telegram": {
             "ru": "📲 Уведомления в Telegram",
-            "eng": "📲 Telegram notifications"
+            "en": "📲 Telegram notifications"
         },
         "edit_profile": {
             "ru": "✏️ Редактировать анкету",
-            "eng": "✏️ Edit profile"
+            "en": "✏️ Edit profile"
         },
         "choose_language": {
             "ru": "🌍 Выбрать язык",
-            "eng": "🌍 Choose language"
+            "en": "🌍 Choose language"
         },
         "change_notify_email": {
             "ru": "📧 Уведомлять по email",
-            "eng": "📧 Email notifications"
+            "en": "📧 Email notifications"
         },
         "change_notify_telegram": {
             "ru": "📲 Уведомлять в Telegram",
-            "eng": "📲 Telegram notifications"
+            "en": "📲 Telegram notifications"
         },
         "yes": {
             "ru": "✅ Да",
-            "eng": "✅ Yes"
+            "en": "✅ Yes"
         },
         "no": {
             "ru": "❌ Нет",
-            "eng": "❌ No"
+            "en": "❌ No"
         },
         "setting_updated": {
             "ru": "✅ Настройки обновлены.",
-            "eng": "✅ Settings updated."
+            "en": "✅ Settings updated."
         },
         "add_new_name": {
             "ru": "👤 Введите ваше новое имя:",
-            "eng": "👤 Enter your new name:"
+            "en": "👤 Enter your new name:"
         },
         "mess_deadline_stage": {
             "ru": "📌 Завтра дедлайн по этапу: {stage_name} проекта: {order_name}.",
@@ -393,7 +393,7 @@ class I18n:
                   "\n• Привязка клиентов к конкретным проектам"
                   "\n• Редактирование и завершение задач через встроенные кнопки"
                   "\n💡 Используйте /start в любое время, чтобы сбросить меню или вернуться к основным опциям.",
-            "eng": "👋 Welcome to the Freelancer Assistant Bot!"
+            "en": "👋 Welcome to the Freelancer Assistant Bot!"
                   "\nThis bot helps you manage your freelance projects, clients, deadlines, and tasks — all in one place."
                   "\n🔧 Main buttons:"
                   "\nProjects — view the list of projects and create a new one"
@@ -408,23 +408,23 @@ class I18n:
         },
         "contact_dev": {
             "ru": "📩 Написать разработчику",
-            "eng": "📩 Contact developer"
+            "en": "📩 Contact developer"
         },
         "send_message_prompt": {
             "ru": "✏️ Напишите ваше сообщение разработчику:",
-            "eng": "✏️ Type your message for the developer:"
+            "en": "✏️ Type your message for the developer:"
         },
         "thanks_feedback": {
             "ru": "✅ Спасибо! Ваше сообщение отправлено.",
-            "eng": "✅ Thank you! Your message has been sent."
+            "en": "✅ Thank you! Your message has been sent."
         },
         "get_guide": {
             "ru": "📘 Получить полное руководство",
-            "eng": "📘 Get the full guide"
+            "en": "📘 Get the full guide"
         },
         "get_guide_txt": {
             "ru": "📘 Полное руководство сейчас будет отправлено как pdf файл",
-            "eng": "📘 The full manual will now be sent as a pdf file"
+            "en": "📘 The full manual will now be sent as a pdf file"
         },
     }
 

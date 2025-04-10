@@ -120,7 +120,7 @@ async def ask_for_message(callback: CallbackQuery, state: FSMContext, user: User
 async def get_guide(callback: CallbackQuery, state: FSMContext, user: UserInDB):
 
     await callback.message.answer(I18n.t(user.language, "get_guide_txt"))
-    if user.language == "eng":
+    if user.language == "en":
         if os.path.exists("files/User Guide.pdf"):
             await callback.message.answer_document(FSInputFile("files/User Guide.pdf"))
     else:
