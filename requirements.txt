@@ -1,0 +1,10 @@
+aiogram==3.4.1
+aiosqlite~=0.21.0
+dotenv~=0.9.9
+python-dotenv~=1.1.0
+pydantic~=2.5.3
+
+email_validator~=2.2.0
+phonenumbers~=9.0.2
+DateTime~=5.5
+APScheduler~=3.11.0
